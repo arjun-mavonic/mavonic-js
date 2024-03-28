@@ -28,3 +28,11 @@ person.greet();
 const { name, age } = person;
 
 console.log(`This is a destructed value =====> Name: ${name}, Age: ${age}`);
+
+// Lets destruct the array today
+const arr = [1, 2, 3, 4, 5];
+const [first, second, ...rest] = arr;
+
+console.log(`First element of the array is ==> ${first}`);
+console.log(`Second element of the array is ==> ${second}`);
+console.log(`Rest of the elements of the array is ==> ${rest}`);
